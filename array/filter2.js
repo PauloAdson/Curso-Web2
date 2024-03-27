@@ -1,4 +1,4 @@
-// Implementando o meu próprio filter
+// Implementando o próprio filter
 
 Array.prototype.filter2 = function(callback) {
     const newArray = []
