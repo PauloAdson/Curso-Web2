@@ -6,7 +6,7 @@ axios.get(url).then(response => {
     // console.log(funcionarios);
     const paisChina = china => china.pais = "China"
     const  mulher = ehMulher => ehMulher.genero = "F"
-    const getMenorSalario = menorSalario => menorSalario.salario <= 3000
+    const getMenorSalario = menorSalario => menorSalario.salario >= 22960
   
     console.log(funcionarios.filter(paisChina).filter(mulher).filter(getMenorSalario));
     console.log(funcionarios.filter(paisChina).filter(mulher).filter(getMenorSalario).length);
