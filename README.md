@@ -12,3 +12,5 @@ npm i lodash
 ```
 npm i -g nodemon
 ```
+
+<p>Padrão middleware, chain of resposibity (cadeia de responsabilidade)</p>
